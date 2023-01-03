@@ -1,0 +1,39 @@
+.container{
+    /* background-color: red; */
+    width: 400px;
+    height: 500px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-grow: 1;
+    /* background-color: blue; */
+}
+.gameBoard{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.btn{
+    flex-grow: 1;
+    margin: 5px;
+    font-size: 5em;
+    font-weight: bold;
+    width: 90px;
+    height: 90px;
+}
+.title{
+    font-size: 1.8em;
+    text-align: center;
+    color: rgb(21, 171, 197);
+}
+.controls{
+    text-align: center;
+}
+.xbtn{
+    color: rgb(122, 122, 17);
+}
+.obtn{
+    color: red;
+}
